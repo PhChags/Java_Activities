@@ -8,3 +8,12 @@ Exercícios - Classes Genéricas e aninhadas e enumerações
 
 3. [3 pontos]Defina uma classe que contenha um método genérico capaz de efetuar a soma das área de arrays contendo apenas objetos dos tipos apresentados na figura abaixo:
 
+                                       FormaGeometrica (area, perimetro, getArea(), getPerimetro())
+                               /--------|                                |                       |------------------------------------\
+                              /                                          |                                                             \
+                             |                                           |                                                              |
+                   Circulo (calcularArea(), calcularPerimetro())      Triangulo (calcularArea(), calcularPerimetro())       Retangulo (calcularArea(), calcularPerimetro())
+                                                                                                                                 |
+                                                                                                                                 |
+                                                                                                                                 |
+                                                                                                         Quadrado (calcularArea(), calcularPerimetro())
